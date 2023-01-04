@@ -1,6 +1,6 @@
 import pyttsx3,PyPDF2
 
-pdfreader = PyPDF2.PdfFileReader(open('ACL_Pro.pdf', 'rb'))
+pdfreader = PyPDF2.PdfFileReader(open("ACL_Pro.pdf", "rb"))
 speaker = pyttsx3.init()
 
 for pg_num in range(pdfreader.numPages):
